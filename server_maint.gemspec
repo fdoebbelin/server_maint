@@ -20,16 +20,14 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
   
-  `git submodule --quiet foreach pwd`.split($\).each do |submodule_path|
+  `git submodule --quiet foreach pwd`.split($\).each do |submodule_expand_path|
+    submodule_path = submodule_expand_path.gsub("#{File.expand_path('../',__FILE__)}/", '')
     Dir.chdir(submodule_path) do
       submodule_files = `git ls-files`.split($\)
-      submodule_files_fullpaths = submodule_files.map do |filename|
-        "#{submodule_path}/#{filename}"
+      submodule_file_paths = submodule_files.map do |filename|
+        "#{submodule_path}#{filename}"
       end
-      submodule_files_paths = submodule_files_fullpaths.map do |filename|
-        filename.gsub "#{File.dirname(__FILE__)}/", ""
-      end
-      gem.files += submodule_files_paths
+      files += submodule_file_paths
     end
   end
 end
