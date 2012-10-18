@@ -1,6 +1,6 @@
 # ServerMaint
 
-TODO: Write a gem description
+Host usefull chef cookbooks for server maintenance
 
 ## Installation
 
