@@ -27,7 +27,7 @@ Gem::Specification.new do |gem|
       submodule_file_paths = submodule_files.map do |filename|
         "#{submodule_path}#{filename}"
       end
-      files += submodule_file_paths
+      gem.files += submodule_file_paths
     end
   end
 end
