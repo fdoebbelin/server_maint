@@ -25,7 +25,7 @@ Gem::Specification.new do |gem|
     Dir.chdir(submodule_path) do
       submodule_files = `git ls-files`.split($\)
       submodule_file_paths = submodule_files.map do |filename|
-        "#{submodule_path}#{filename}"
+        "#{submodule_path}/#{filename}"
       end
       gem.files += submodule_file_paths
     end
