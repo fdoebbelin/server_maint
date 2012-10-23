@@ -1,3 +1,6 @@
 [submodule "lib/cookbooks/sanitize"]
 	path = lib/cookbooks/sanitize
 	url = git://github.com/3ofcoins/chef-cookbook-sanitize.git
+[submodule "lib/cookbooks/nginx"]
+	path = lib/cookbooks/nginx
+	url = git://github.com/opscode-cookbooks/nginx.git
