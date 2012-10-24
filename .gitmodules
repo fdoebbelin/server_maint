@@ -4,3 +4,15 @@
 [submodule "lib/cookbooks/nginx"]
 	path = lib/cookbooks/nginx
 	url = git://github.com/opscode-cookbooks/nginx.git
+[submodule "lib/cookbooks/build-essential"]
+	path = lib/cookbooks/build-essential
+	url = git://github.com/opscode-cookbooks/build-essential.git
+[submodule "lib/cookbooks/runit"]
+	path = lib/cookbooks/runit
+	url = git://github.com/opscode-cookbooks/runit.git
+[submodule "lib/cookbooks/bluepill"]
+	path = lib/cookbooks/bluepill
+	url = git://github.com/opscode-cookbooks/bluepill.git
+[submodule "lib/cookbooks/ohai"]
+	path = lib/cookbooks/ohai
+	url = git://github.com/opscode-cookbooks/ohai.git
