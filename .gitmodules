@@ -16,3 +16,15 @@
 [submodule "lib/cookbooks/ohai"]
 	path = lib/cookbooks/ohai
 	url = git://github.com/opscode-cookbooks/ohai.git
+[submodule "lib/cookbooks/php"]
+	path = lib/cookbooks/php
+	url = git://github.com/opscode-cookbooks/php.git
+[submodule "lib/cookbooks/apt"]
+	path = lib/cookbooks/apt
+	url = git://github.com/opscode-cookbooks/apt.git
+[submodule "lib/cookbooks/yum"]
+	path = lib/cookbooks/yum
+	url = git://github.com/opscode-cookbooks/yum.git
+[submodule "lib/cookbooks/php-fpm"]
+	path = lib/cookbooks/php-fpm
+	url = git://github.com/yevgenko/cookbook-php-fpm.git
