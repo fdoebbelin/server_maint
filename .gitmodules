@@ -46,3 +46,6 @@
 [submodule "lib/cookbooks/aws"]
 	path = lib/cookbooks/aws
 	url = git://github.com/opscode-cookbooks/aws.git
+[submodule "lib/cookbooks/openssl"]
+	path = lib/cookbooks/openssl
+	url = git://github.com/opscode-cookbooks/openssl.git
