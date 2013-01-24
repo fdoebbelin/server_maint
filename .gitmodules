@@ -31,9 +31,6 @@
 [submodule "lib/cookbooks/mysql"]
 	path = lib/cookbooks/mysql
 	url = git://github.com/opscode-cookbooks/mysql.git
-[submodule "lib/cookbooks/postgresql"]
-	path = lib/cookbooks/postgresql
-	url = git://github.com/opscode-cookbooks/postgresql.git
 [submodule "lib/cookbooks/sqlite"]
 	path = lib/cookbooks/sqlite
 	url = git://github.com/opscode-cookbooks/sqlite.git
