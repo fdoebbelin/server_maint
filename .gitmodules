@@ -46,3 +46,6 @@
 [submodule "lib/cookbooks/openssl"]
 	path = lib/cookbooks/openssl
 	url = git://github.com/opscode-cookbooks/openssl.git
+[submodule "lib/cookbooks/postgresql"]
+	path = lib/cookbooks/postgresql
+	url = git://github.com/phlipper/chef-postgresql.git
